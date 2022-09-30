@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useHistory, useLocation } from 'react-router';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { GitHubLogo, KeyIcon, MenuIcon, NavigationIcon, TwitterLogo, XIcon } from './Icons';
+import { GitHubLogo,  MenuIcon, NavigationIcon, XIcon } from './Icons';
 import Doing from './Doing';
 import useSound from 'use-sound';
 import { useAtom } from 'jotai';
@@ -71,7 +71,7 @@ const Nav = () => {
   return (
     <>
       <MobileHeader>
-        <Title>Phineas Walton</Title>
+        <Title>Adrian Blanc</Title>
         {openOnMobile ? (
           <XIcon onClick={toggleMobileMenu} />
         ) : (
@@ -91,7 +91,7 @@ const Nav = () => {
         <Items>
           {!openOnMobile ? (
             <Row>
-              <Title>Phineas Walton</Title>
+              <Title>Adrian Blanc</Title>
               {/* <IconButton>
               <ChevronDown />
             </IconButton> */}
@@ -137,14 +137,8 @@ const Nav = () => {
           </div>
 
           <Icons>
-            <a href="https://twitter.com/phineyes">
-              <TwitterLogo />
-            </a>
-            <a href="https://github.com/phineas">
+            <a href="https://github.com/exploreIO">
               <GitHubLogo />
-            </a>
-            <a href="https://keybase.io/phineas">
-              <KeyIcon />
             </a>
           </Icons>
           <Doing

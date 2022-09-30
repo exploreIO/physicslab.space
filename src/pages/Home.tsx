@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { Tooltip } from 'react-tippy';
 import PageWrapper from './PageWrapper';
 
-const BIRTH = new Date('2001-12-28T10:15:00Z');
+const BIRTH = new Date('2004-03-17T10:15:00Z');
 const YEAR_MILLIS = 31556952000;
 
 const Home = () => {
@@ -12,15 +12,15 @@ const Home = () => {
     <PageWrapper forceReadableWidth>
       <h1>What I Do</h1>
       <p>
-        Phin.{' '}
-        <Tooltip arrow title={'28th December 2001'}>
+        Mr. Blanc | {' '}
+        <Tooltip arrow title={'17th March 2004'}>
           {age}
         </Tooltip>{' '}
-        y/o developer, innovator and investor.
+        y/o Engineer, Innovator and Inventor.
       </p>
       <p>
-        I design, build and publish products of quality and reliability. Currently, I'm a co-founder
-        and developer at{' '}
+        I design, build and publish products of quality and reliability. Currently, I'm a Founder 
+        and Engineer at{' '}
         <a href="https://giggl.app" target="norel noopen">
           Giggl
         </a>

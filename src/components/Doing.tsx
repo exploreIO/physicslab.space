@@ -7,7 +7,6 @@ import SpotifyLogo from '../assets/images/spotify-logo.svg';
 import { useAtom } from 'jotai';
 import { doingAtom } from '../state/lanyard';
 
-// Thanks to Tim (https://github.com/timcole/timcole.me/blob/%F0%9F%A6%84/components/lanyard.tsx) for the types
 
 enum Operation {
   Event,
