@@ -1,10 +1,9 @@
-# phineas.io
+# physicslab.space
 
-This is the React app that runs on [phineas.io](https://phineas.io).
+This is the React app that runs on [physicslab.space](https://physicslab.space).
 
 ## "Stack"
 
-- create-react-app
-- styled-components
+- React
 - TypeScript
-- [Cloudflare Pages](https://pages.cloudflare.com)
+- Yarn
