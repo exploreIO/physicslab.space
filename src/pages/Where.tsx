@@ -22,7 +22,7 @@ const Where = () => {
           iconReference={NebuleiIcon}
           tagline="Consumer social"
           role={'Founder & Engineer'}
-          what={'I founded Nebulei to inspire further aspirations in all feilds and want social interaction among great minds to comfortably share and collaborate.'}
+          what={'I founded Nebulei to want to inspire more humans to take part in the advancement of civilization upon all aspects as I believe this is what humans were meant to do'}
           acquired
         />
         <Co
