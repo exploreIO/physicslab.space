@@ -1,9 +1,9 @@
 import PageWrapper from './PageWrapper';
 import Co from '../components/Co';
 import styled from 'styled-components';
-import HivenAppIcon from '../assets/images/hiven-app-icon.png';
-import GigglAppIcon from '../assets/images/giggl-app-icon.jpg';
-import HonkAppIcon from '../assets/images/honk-app-icon.jpg';
+import NebuleiIcon from '../assets/images/Gradient-Nebulei-Logo.png';
+import PulsarIcon from '../assets/images/Gradient-Pulsar-Logo.png';
+import QuasarlabIcon from '../assets/images/Gradient-Quasarlab-Logo.png';
 import Repo from '../components/Repo';
 import { Helmet } from 'react-helmet';
 
@@ -17,56 +17,68 @@ const Where = () => {
       <h3>Companies</h3>
       <CoWrapper>
         <Co
-          url="https://hiven.io"
-          name="Hiven"
-          iconReference={HivenAppIcon}
+          url=""
+          name="Nebulei"
+          iconReference={NebuleiIcon}
           tagline="Consumer social"
-          role={'Founder & Developer'}
-          what={'I founded Hiven back in 2019 to make it easy for anyone create premium groups.'}
+          role={'Founder & Engineer'}
+          what={'I founded Nebulei to inspire further aspirations in all feilds and want social interaction among great minds to comfortably share and collaborate.'}
           acquired
         />
         <Co
-          url="https://giggl.app"
-          name="Giggl"
-          iconReference={GigglAppIcon}
-          tagline="Consumer social"
-          role={'CEO, Co-founder & Developer'}
-          what={'I co-founded Giggl back in early 2020 to re-create being together IRL, online'}
+          url=""
+          name="Pulsar-Stellar"
+          iconReference={PulsarIcon}
+          tagline="AI & Robotics"
+          role={'Founder & Engineer'}
+          what={'I founded Pulsar-Stellar an AI & Robotics company to eventually get to the point to use robotics to advance civilization on all aspects.'}
         />
         <Co
-          url="https://honk.me"
-          name="Honk"
-          iconReference={HonkAppIcon}
-          tagline="Consumer social"
-          role={'Backend Engineer'}
-          what={'I helped design and implement the realtime infrastructure at Honk using Elixir.'}
+          url=""
+          name="Quasar-Labs"
+          iconReference={QuasarlabIcon}
+          tagline="Software Development"
+          role={'Software Engineer'}
+          what={'I do software/web development and create amazing applications for clientele.'}
         />
       </CoWrapper>
 
       <h3>Open-source Projects</h3>
       <Repo
-        name={'lanyard'}
-        url={'https://github.com/phineas/lanyard'}
+        name={'nebulei'}
+        url={'https://github.com/nebulei/nebulei'}
+        primaryLanguage={'Python'}
+        description="Backend API for social network."
+      />
+      <Repo
+        name={'pulsar-stellar'}
+        url={'https://github.com/pulsar-stellar/pulsar-stellar'}
+        primaryLanguage={'C++'}
+        description="Robotics library to build any type of robots you can imagine."
+      />
+      <Repo
+        name={'guardian'}
+        url={'https://github.com/ueberauth/guardian'}
         primaryLanguage={'Elixir'}
-        description="Expose your Discord presence to an API in <10 seconds (used on this site)"
+        description="An authentication library for use with Elixir applications."
       />
       <Repo
-        name={'domain-lookup-tree'}
-        url={'https://github.com/phineas/domain-lookup-tree'}
-        primaryLanguage={'Rust'}
-        description="A tree structure in Rust optimized for looking up domain names, with wildcard support"
-      />
-      <Repo
-        name={'node_compass'}
-        url={'https://github.com/hivenapp/node_compass'}
-        primaryLanguage={'Elixir'}
-        description="Automatic hash ring management for Elixir nodes"
-      />
-      <Repo
-        name={'phineas.io'}
-        url={'https://github.com/phineas/phineas.io'}
+        name={'physicslab.space'}
+        url={'https://github.com/exploreIO/physicslab.space'}
         primaryLanguage={'TypeScript'}
-        description="This very website"
+        description="This very website."
+      />
+      <Repo
+        name={'luajit'}
+        url={'https://github.com/LuaJIT/LuaJIT'}
+        primaryLanguage={'Lua'}
+        description="LuaJIT is a Just-In-Time (JIT) compiler for the Lua programming language."
+      />
+            <Repo
+        name={'json-iterator'}
+        url={'https://github.com/json-iterator/go'}
+        primaryLanguage={'GO'}
+        description="A high-performance 100% compatible drop-in replacement of 'encoding/json'"
       />
     </PageWrapper>
   );

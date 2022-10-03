@@ -24,10 +24,20 @@ const Repo = ({
             {primaryLanguage}{' '}
             <LanguageColorBlip
               color={
-                primaryLanguage === 'Elixir'
+                primaryLanguage === 'Python'
+                  ? '#ffe23b'
+                  : primaryLanguage === 'C++'
                   ? '#9c1fa5'
                   : primaryLanguage === 'TypeScript'
-                  ? '#007acc'
+                  ? '#056eb4'
+                  : primaryLanguage === 'GO'
+                  ? '#47f9ff'
+                  : primaryLanguage === 'Lua'
+                  ? '#053a5e'
+                  : primaryLanguage === 'Ruby'
+                  ? '#a80000'
+                  : primaryLanguage === 'Elixir'
+                  ? '#8333c5'
                   : primaryLanguage === 'Rust'
                   ? '#dea584'
                   : '#000'

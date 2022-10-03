@@ -19,40 +19,26 @@ const Home = () => {
         y/o Engineer, Innovator and Inventor.
       </p>
       <p>
-        I design, build and publish products of quality and reliability. Currently, I'm a Founder 
+        I love Engineering & Physics. I spend most of my time building Robots and ML algorithms while research in the feilds of Physics. Currently, I'm a Founder 
         and Engineer at{' '}
-        <a href="https://giggl.app" target="norel noopen">
-          Giggl
+        <a href="/" target="norel noopen">
+          Nebulei
+        </a>
+        <span> & </span>
+        <a href="/" target="norel noopen">
+           Pulsar-Stellar
         </a>
         .
       </p>
       <p>
-        I specialize in scalable real-time systems & networking, then usually pair that with React
-        for the frontend.
+        I specialize in Robotics & ML but eventually want to become an expert in physics, although far from there.
       </p>
 
       <p>
-        In my free time, I invest in and help startups with strategy, development, fundraising and
-        more. Got a big descision to make? I'm always down to chat to new founders.
+        In my free time, I dont really do anything else off the internet but some of my hobbies besides work itself, is reading and 
+        chess basically. My end goal is too do space exploration.
       </p>
 
-      <h3>A note about networking</h3>
-
-      <p>
-        Network engineering sounds like a mundane and boring topic, but it's actually pretty
-        esoteric and interesting when applied on a global scale - it's the backbone of how today's
-        society communicates and operates, yet there's not many young developers engaged in the
-        topic. Contrary to popular belief, the internet still works and operates on very loose trust
-        between people and organizations - I plan to help change this for the better.
-      </p>
-
-      <h3>About Giggl</h3>
-      <p>
-        Giggl is revolutionizing togetherness online using multiplayer browsers. You can spin up a
-        Giggl "portal" with someone on the other side of the world, and you'll be able to
-        individually control a browser that we host in the cloud which you can use to watch movies
-        together, collaborate on projects and everything else the www offers.
-      </p>
     </PageWrapper>
   );
 };

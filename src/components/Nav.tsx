@@ -97,29 +97,6 @@ const Nav = () => {
             </IconButton> */}
             </Row>
           ) : null}
-          <Row>
-            <Location
-              target="_blank"
-              href={doing ? `https://www.google.com/maps/search/${encodeURIComponent(doing.kv.location)}` : undefined}
-              rel="noreferrer"
-            >
-              <NavigationIcon />
-              {doing?.kv.location ? (
-                doing.kv.location
-              ) : (
-                <ContentLoader
-                  speed={2}
-                  // width={"auto"}
-                  height={19}
-                  viewBox="0 0 160 25"
-                  backgroundColor="#121212"
-                  foregroundColor="#2e2e2e"
-                >
-                  <rect x="0" y="3" rx="6" ry="6" width="160" height="19" />
-                </ContentLoader>
-              )}
-            </Location>
-          </Row>
 
           <div ref={dragConstraintsRef}>
             <Page active={pathname === '/' ? 1 : 0} to="/">
@@ -127,9 +104,6 @@ const Nav = () => {
             </Page>
             <Page active={pathname === '/where' ? 1 : 0} to="/where">
               where I've done it
-            </Page>
-            <Page active={pathname === '/how' ? 1 : 0} to="/how">
-              how I do it
             </Page>
             <Page active={pathname === '/etc' ? 1 : 0} to="/etc">
               more + contact
