@@ -58,7 +58,7 @@ function App() {
           <SuccessiveType
             onEnd={onIntroEnd}
             words={
-              "I am going to change humanity with my inventions & innovations using Physics and Engineering."
+              "Using my great passion for life and my keen love for Physics & Engineering, I will do what I must to advance this generation of humanity as all the great warriors did before me."
             }
             speed={1}
             userSkipped={introEnded}
