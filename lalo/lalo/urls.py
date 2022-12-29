@@ -9,8 +9,8 @@ django_urls = [
 ]
 
 lalo_urls = [
-    #path('', include('core.urls')),
-    #path('blog/', include('blog.urls')),
+    path('', include('core.urls')),
+    path('blog/', include('blog.urls')),
 ]
 
 
