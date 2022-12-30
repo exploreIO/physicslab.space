@@ -1,4 +1,5 @@
 {% extends "core_templates/core_base.html" %}
+{% load static %}
 
 
 {% block content %}
@@ -20,9 +21,6 @@
           </figcaption>
         </figure>
 
-        <a class="btn btn-outline-secondary" href="{% url 'blog-home' %}">
-          My Work
-        </a>
       </div>
       <div class="product-device shadow-sm d-none d-md-block"></div>
       <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -36,14 +34,40 @@
 
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="" class="d-block mx-lg-auto img-fluid" alt="Space" width="700" height="500" loading="lazy">
+          <img src="{% static 'media/logo.svg' %}" class="d-block mx-lg-auto img-fluid" alt="Space" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-          <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+          <p class="lead">
+            I love Engineering & Physics. I spend most of my time building Robots and ML algorithms while research in the feilds of Physics. Currently, I run Nebulei & Pulsar-Stellar.
+            I specialize in Robotics & ML but eventually want to become proficient in physics, although far from there.
+            In my free time, I like pondering and researching upon life's aspects.. My end goal is too do space exploration, among other things...
+          </p>
         </div>
       </div>
 
+    </div>
+
+  </section>
+
+  <section id="core-home-3">
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-dark">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+
+        <figure class="text-center">
+          <blockquote class="blockquote">
+            <p class="text-white">
+              It is a damn poor mind that can think of only one way to spell a word.
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            7th US President <cite title="Source Title">Andrew Jackson</cite>
+          </figcaption>
+        </figure>
+
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
 
   </section>
